@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Settings</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+        crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+<nav class="navbar navbar-dark">
+  <nav class="navbar navbar-expand-sm">
+    <div class="container-fluid">
+      <img src="images/flush%20finder%20logo.png" alt="Flush Finder Logo" height=80>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="add.html">Add</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="favorites.html">Favorites</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="profileRecentToOldest.html">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="settings.html">Settings</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="restrooms.html" role="button" data-bs-toggle="dropdown">Search</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="ccFirstFloor.html">Campus Center Building</a></li>
+              <li><a class="dropdown-item" href="ckbFirstFloor.html">Central King Building</a></li>
+              <li><a class="dropdown-item" href="fensterSecondFloor.html">Fenster Building</a></li>
+              <li><a class="dropdown-item" href="nycIndex.html">Empire State Building</a></li>
+              <li><a class="dropdown-item" href="sfIndex.html">Golden Gate Bridge</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</nav>
+
+<main>
+
+  <div class="mx-0 mx-sm-auto">
+    <div class="card">
+      <div class="card-body">
+        <div class="text-center">
+          <i class="far fa-file-alt fa-4x mb-3 text-primary"></i>
+          <h4>
+            <strong>Settings</strong>
+          </h4>
+
+        </div>
+
+        <hr />
+
+        <!--question 1-->
+        <form class="px-4" action="">
+          <h5>Location Prefrences</h5>
+          <div class="form-check mb-2">
+            <input class="form-check-input" type="radio" name="exampleForm" id="radio2Example1" />
+            <label class="form-check-label" for="radio2Example1">
+              Always
+            </label>
+          </div>
+          <div class="form-check mb-2">
+            <input class="form-check-input" type="radio" name="exampleForm" id="radio2Example2" />
+            <label class="form-check-label" for="radio2Example2">
+              Only while using app
+            </label>
+          </div>
+          <div class="form-check mb-2">
+            <input class="form-check-input" type="radio" name="exampleForm" id="radio2Example3" />
+            <label class="form-check-label" for="radio2Example3">
+              never
+            </label>
+          </div>
+        </form>
+
+        <!--question 2-->
+        <form class="px-4" action="">
+          <h5>Range for Nearby Restrooms</h5>
+          <div class="form-check mb-2">
+            <input class="form-check-input" type="radio" name="exampleForm" id="radio2Example5" />
+            <label class="form-check-label" for="radio2Example1">
+            <5 miles
+            </label>
+          </div>
+          <div class="form-check mb-2">
+            <input class="form-check-input" type="radio" name="exampleForm" id="radio2Example6" />
+            <label class="form-check-label" for="radio2Example2">
+              5-10 miles
+            </label>
+          </div>
+          <div class="form-check mb-2">
+            <input class="form-check-input" type="radio" name="exampleForm" id="radio2Example7" />
+            <label class="form-check-label" for="radio2Example3">
+              10+ miles
+            </label>
+          </div>
+
+        </form>
+
+        <!--question 3-->
+        <form class="px-4" action="">
+          <h5>Measuring Units</h5>
+
+          <div class="form-check mb-2">
+            <input class="form-check-input" type="radio" name="exampleForm" id="radio2Example8" />
+            <label class="form-check-label" for="radio2Example8">
+              U.S Imperial (miles, feet)
+            </label>
+          </div>
+          <div class="form-check mb-2">
+            <input class="form-check-input" type="radio" name="exampleForm" id="radio2Example9" />
+            <label class="form-check-label" for="radio2Example9">
+              Metric (kilometers, meters)
+            </label>
+          </div>
+        </form>
+
+        <!--question 4-->
+        <form class="px-4" action="">
+          <h5>Notification Type</h5>
+
+          <div class="form-check mb-2">
+            <input class="form-check-input" type="radio" name="exampleForm" id="radio2Example10" />
+            <label class="form-check-label" for="radio2Example10">
+              Lock Screen
+            </label>
+          </div>
+          <div class="form-check mb-2">
+            <input class="form-check-input" type="radio" name="exampleForm" id="radio2Example11" />
+            <label class="form-check-label" for="radio2Example11">
+              Notification Center
+            </label>
+          </div>
+          <div class="form-check mb-2">
+            <input class="form-check-input" type="radio" name="exampleForm" id="radio2Example12" />
+            <label class="form-check-label" for="radio2Example12">
+            Banners
+            </label>
+          </div>
+        </form>
+
+        <!--question 5-->
+        <form class="px-4" action="">
+          <h5>Voice Assistant</h5>
+
+          <div class="form-check mb-2">
+            <input class="form-check-input" type="radio" name="exampleForm" id="radio2Example13" />
+            <label class="form-check-label" for="radio2Example13">
+              On
+            </label>
+          </div>
+          <div class="form-check mb-2">
+            <input class="form-check-input" type="radio" name="exampleForm" id="radio2Example14" />
+            <label class="form-check-label" for="radio2Example14">
+              Off
+            </label>
+          </div>
+        </form>
+
+        <!--question 6-->
+        <form class="px-4" action="">
+          <h5>Avoid Multiple Floors</h5>
+
+          <div class="form-check mb-2">
+            <input class="form-check-input" type="radio" name="exampleForm" id="radio2Example15" />
+            <label class="form-check-label" for="radio2Example15">
+              Yes
+            </label>
+          </div>
+          <div class="form-check mb-2">
+            <input class="form-check-input" type="radio" name="exampleForm" id="radio2Example16" />
+            <label class="form-check-label" for="radio2Example16">
+              No
+            </label>
+          </div>
+        </form>
+      </div>
+      <div class="card-footer text-end">
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+
+    </div>
+  </div>
+
+
+</main>
+<div class="footer">
+  <p>&copy; Copyright Group 3, December 15, 2023</p>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+</body>
+</html>
